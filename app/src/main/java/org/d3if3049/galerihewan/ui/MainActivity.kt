@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
 
         with(binding.rvMain) {
             addItemDecoration(DividerItemDecoration(context, LinearLayoutManager.VERTICAL))
-//            layoutManager = LinearLayoutManager(this@MainActivity)
             adapter = MainAdapter(getData())
             setHasFixedSize(true)
         }
