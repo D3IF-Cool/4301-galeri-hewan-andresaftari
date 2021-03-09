@@ -1,11 +1,9 @@
 package org.d3if3049.galerihewan.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import org.d3if3049.galerihewan.R
 import org.d3if3049.galerihewan.databinding.ActivityMainBinding
 import org.d3if3049.galerihewan.model.Hewan
